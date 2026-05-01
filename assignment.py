@@ -1,4 +1,4 @@
-python class TicketError(Exception):
+class TicketError(Exception):
     pass
 from dataclasses import dataclass, field
 from contextlib import contextmanager
